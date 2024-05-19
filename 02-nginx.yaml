@@ -6,6 +6,6 @@
         name: nginx
         state: installed
     - name: starting nginx
-        ansible.bulitin.service:
+      ansible.bulitin.service:
          name: nginx
          state: started
