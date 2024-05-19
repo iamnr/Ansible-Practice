@@ -2,10 +2,10 @@
   hosts: mongodb
   vars_prompt: 
   - name: UserName
-    promt: Enter your Name
+    prompt: Enter your Name
     private: false
   - name: Password
-    promt: Enter Password
+    prompt: Enter Password
     private: true
   tasks:
   - name: Printing Variables
