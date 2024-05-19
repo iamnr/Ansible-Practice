@@ -1,0 +1,5 @@
+- name: Printing 
+  host: mongodb
+  tasks: 
+    ansible.builtin.debug:
+      msg: "Hello"
