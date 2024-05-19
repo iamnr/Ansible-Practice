@@ -1,6 +1,6 @@
 - name: Varibales from Promt
   hosts: mongodb
-  vars_promt: 
+  vars_prompt: 
   - name: UserName
     promt: Enter your Name
     private: false
