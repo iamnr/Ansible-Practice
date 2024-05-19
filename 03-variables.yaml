@@ -1,0 +1,10 @@
+- name: Variables at play level
+  hosts: mongodb
+  vars:
+    COURSE: DevOps
+    TRAINER: Siva
+
+  tasks: 
+  - name: Print Variables
+    ansible.builtin.debug:
+      msg: "{{COURSE}}"
